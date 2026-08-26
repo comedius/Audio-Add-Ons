@@ -4,7 +4,7 @@ console.log('NODE_ENV', process.env.NODE_ENV);
 console.log('CI', process.env.CI);
 
 export default {
-  basePath: process.env.CI ? '/studiorack-site' : '',
+  basePath: process.env.CI ? '/Audio-Add-Ons' : '',
   generateBuildId: async () => {
     return 'latest'; // TODO version the site feed using package.version
   },
